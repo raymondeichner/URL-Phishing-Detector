@@ -7,8 +7,8 @@ This project includes a full training pipeline and an interactive Streamlit web 
 ## 🚀 Features
 - Fine-tuned **DistilBERT** transformer model  
 - **Binary classification**: `legitimate` or `phishing`
-- **Streamlit web application** for real-time predictions  
-- Professional ML pipeline with train/validation/test split  
+- **Streamlit web application** for real-time predictions
+- ML pipeline with train/validation/test split  
 - Model evaluation using **Accuracy** and **F1 Score**
 - Clean and resume-ready GitHub project structure  
 - Large datasets and model files handled correctly (ignored via `.gitignore`)
