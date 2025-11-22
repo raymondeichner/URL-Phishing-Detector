@@ -1,0 +1,30 @@
+# Ignore model files
+models/*
+!models/README.md
+
+# Ignore dataset
+data/*
+!data/README.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit cache
+.streamlit/
+
+# Mac system files
+.DS_Store
+
+# Jupyter notebooks checkpoints (if you ever add them)
+.ipynb_checkpoints/
+
+
