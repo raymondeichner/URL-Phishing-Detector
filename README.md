@@ -1,5 +1,5 @@
 # URL Phishing Detector 
-A machine learning project that uses a fine-tuned DistilBERT model to classify URLs as **legitimate** or **phishing**.  
+A machine learning project that fine-tunes a DistilBERT model to classify URLs as **legitimate** or **phishing**.  
 This project includes a full training pipeline and an interactive Streamlit web app for real-time URL classification.
 
 ---
