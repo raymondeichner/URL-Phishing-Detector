@@ -10,8 +10,6 @@ This project includes a full training pipeline and an interactive Streamlit web 
 - **Streamlit web application** for real-time predictions
 - ML pipeline with train/validation/test split  
 - Model evaluation using **Accuracy** and **F1 Score**
-- Clean and resume-ready GitHub project structure  
-- Large datasets and model files handled correctly (ignored via `.gitignore`)
 
 ---
 
@@ -35,33 +33,8 @@ URL-Phishing-Detector/
 └── README.md              ← this file
 ```
 
----
 
-## 📦 Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/YOUR-USERNAME/URL-Phishing-Detector.git
-cd URL-Phishing-Detector
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Add your dataset:
-Place your dataset file here:
-
-```
-data/URL_dataset.csv
-```
-
-(See `data/README.md` for format requirements.)
-
----
-
-## 🧠 Training the Model
+## Training the Model
 
 Run the training script:
 
@@ -74,7 +47,7 @@ This will:
 - Load your dataset  
 - Split into train/validation/test  
 - Fine-tune DistilBERT  
-- Evaluate using accuracy and F1  
+- Evaluate model using accuracy and F1  
 - Save your model inside:
 
 ```
@@ -83,7 +56,7 @@ models/fine_tuned_model/
 
 ---
 
-## 🌐 Running the Streamlit App
+## Running the Streamlit App
 
 To launch the interactive web interface:
 
@@ -98,7 +71,7 @@ Enter any URL and the model will classify it as:
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 Create a `/screenshots` folder in the repo root and upload your images there.
 
@@ -115,7 +88,7 @@ Then reference them here, for example:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 - Python  
 - Hugging Face Transformers  
 - DistilBERT  
@@ -127,14 +100,11 @@ Then reference them here, for example:
 
 ---
 
-## 📌 Notes
+## Notes
 - Large dataset (`URL_dataset.csv`) is **NOT included** due to GitHub size limits.
 - Fine-tuned model files are also **NOT included** for the same reason.
 - Both are stored locally and created when running the training script.
 
 ---
-
-## 📄 License
-This project is open-source and available under the MIT License.
 
 
