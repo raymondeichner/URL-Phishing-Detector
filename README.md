@@ -71,23 +71,6 @@ Enter any URL and the model will classify it as:
 
 ---
 
-## Screenshots
-
-Create a `/screenshots` folder in the repo root and upload your images there.
-
-Recommended screenshots:
-- Streamlit UI home screen  
-- Classification example (legitimate)  
-- Classification example (phishing)  
-
-Then reference them here, for example:
-
-```
-![App Screenshot](screenshots/app_example.png)
-```
-
----
-
 ## Technologies Used
 - Python  
 - Hugging Face Transformers  
